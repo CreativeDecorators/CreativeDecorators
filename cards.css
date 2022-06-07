@@ -1,0 +1,12 @@
+.card-deck {
+    width: 70%;
+    height: 4rem;
+    float: center;
+    margin-left: 15rem;
+}
+
+.card {
+    border: 0px;
+    width: 100px;
+    text-align: center;
+}
