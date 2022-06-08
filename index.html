@@ -16,15 +16,16 @@
     <!-- Navbar Starts -->
     <div class="Head">
         <div class="logo">
-            <img src="/assest/bail.jpeg" alt="Creative Decorators" srcset="" width="100%">
+            <a href="/index.html">
+                <img src="/assest/creative logo.png" alt="Creative Decorators" srcset="" width="100%"></a>
         </div>
     </div>
     <div class="menu">
 
-        <div>Home</div>
-        <div>About Us</div>
-        <div>Services</div>
-        <div>Contact Details</div>
+        <div><a href="/index.html">Home</a></div>
+        <div><a href="#about">About Us</a></div>
+        <div><a href="#services">Services</a></div>
+        <div><a href="#contact">Contact Us</a></div>
 
     </div>
     <!-- Navbar end -->
@@ -32,24 +33,50 @@
     <div class="slideshow-container">
 
         <div class="mySlides fade">
-            <p class="bg1">
-            <h3 id="img-title">First Slide</h3>
+            <p class="bg1" id="bg1">
+            <h1 id="img-title">Enhance the Mood
+            </h1>
+            <h5 id="img-subtitle">
+                Floral displays have been shown to improve people's spirits. In other words, looking at flowers makes
+                people feel
+                happier and more active.
+
+            </h5>
             </p>
         </div>
 
         <div class="mySlides fade">
-            <p class="bg1">
-            <h3 id="img-title">Second Slide</h3>
+            <p class="bg1" id="bg1">
+            <h1 id="img-title">Second Slide</h1>
+            <h5 id="img-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero iusto blanditiis possimus,
+                dignissimos recusandae facilis porro. Perspiciatis accusamus suscipit repudiandae ipsum alias
+                eligendi
+                cum pariatur, amet expedita eius quam.
+            </h5>
             </p>
         </div>
         <div class="mySlides fade">
-            <p class="bg1">
-            <h3 id="img-title">Third Slide</h3>
+            <p class="bg1" id="bg2">
+            <h1 id="img-title">Third Slide</h1>
+            <h5 id="img-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero iusto blanditiis possimus,
+                dignissimos recusandae facilis porro. Perspiciatis accusamus suscipit repudiandae ipsum alias
+                eligendi
+                cum pariatur, amet expedita eius quam.
+            </h5>
             </p>
         </div>
         <div class="mySlides fade">
-            <p class="bg1">
-            <h3 id="img-title">Forth Slide</h3>
+            <p class="bg1" id="bg3">
+            <h1 id="img-title">Forth Slide
+            </h1>
+            <h5 id="img-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vero iusto blanditiis possimus,
+                dignissimos recusandae facilis porro. Perspiciatis accusamus suscipit repudiandae ipsum alias
+                eligendi
+                cum pariatur, amet expedita eius quam.
+            </h5>
             </p>
         </div>
     </div>
@@ -86,41 +113,53 @@
     <!-- home Page slide Carousoule end -->
 
     <!-- About us Section Starts -->
-    <div class="about-sec">
+    <div class="about-sec" id="about">
+
         <div class="about-title">
             About Us
         </div>
-        <div class="about-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore asperiores reprehenderit, sit fugit quidem
-            magni quae repellendus quos modi porro error possimus nisi. Beatae esse iste officia. Tenetur, vitae eos?
+        <div class="about-cards">
+            <iframe src="about-cards.html" scrolling="no" frameborder="0" class="about-iframe"></iframe>
         </div>
-
+        <img src="./assest/about-02.png" width="100%" height="100%" alt="" srcset="">
     </div>
     <!-- About us Section End -->
 
     <!-- Services -->
-    <iframe src="cards.html" scrolling="no" frameborder="0" class="cards-iframe"></iframe>
+    <div id="services">
+        <div class="services-section">
+            <div class="service-title">
+                Our Services
+            </div>
+            <div class="sevices-cards">
+                <iframe src="cards.html" scrolling="no" frameborder="0" class="cards-iframe"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Services Ends -->
 
     <!-- Contact Details Starts-->
-    <div class="contact-section">
+    <div class="contact-section" id="contact">
         <div class="contact-address">
             <table>
                 <tr>
-                    <th>Firstname</th>
-                    <th>Lastname</th>
+                    <td class="icons"> <img src="./assest/phone-solid.svg" alt="" srcset="" width="100%" height="30rem">
+                    </td>
+                    <td>+917249777151</td>
                 </tr>
                 <tr>
-                    <td>Peter</td>
-                    <td>Griffin</td>
+                    <td class="icons"> <img src="./assest/envelope-solid.svg" alt="" srcset=""> </td>
+                    <td>hi.creativedecorators@gmail.com</td>
                 </tr>
                 <tr>
-                    <td>Lois</td>
-                    <td>Griffin</td>
+                    <td class="icons"> <img src="/assest/location-dot-solid.svg" alt="" srcset=""> </td>
+                    <td>KPR Elite, Sys, 9/1A, Hosa Rd, Kasavanahalli, Karnataka Kasavanahalli, Bengaluru - 560035,
+                        Karnataka</td>
                 </tr>
             </table>
         </div>
         <div class="contact-map">
-            <p>Testing Map</p>
+            <iframe src="map.html" frameborder="0" scrolling="no" width="100%" height="300rem"></iframe>
         </div>
     </div>
     <!-- Contact Details Ends -->
