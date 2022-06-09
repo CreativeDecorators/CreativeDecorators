@@ -67,6 +67,7 @@ img {
     top: 70%;
     left: 10%;
     color: #AF2632;
+    font-size: 30px;
 }
 
 #img-subtitle {
@@ -195,7 +196,6 @@ img {
     padding: 0%;
     text-align: center;
     left: 0%;
-    z-index: -89;
     background: url("./assest/about.png");
     background-size: cover;
     width: 100%;
@@ -333,14 +333,14 @@ img {
         right: 0%;
         text-align: center;
         color: #AF2632;
-
+        font-size: 25px;
     }
 
     #img-subtitle {
         position: absolute;
         top: 81%;
-        left: 8%;
-        width: 20rem;
+        left: 15%;
+        width: 16rem;
         font-size: 0.9rem;
         text-align: center;
     }
@@ -412,11 +412,10 @@ img {
         padding: 0%;
         text-align: center;
         left: 0%;
-        /* z-index: -89; */
         background: url("./assest/about-phone.png");
         background-size: cover;
         width: 100%;
-        height: 900px;
+        height: 800px;
     }
 
     .about-cards {
@@ -447,7 +446,7 @@ img {
         left: 0;
         right: 0;
         text-align: center;
-        padding: 0rem 2rem 0rem 2rem;
+        padding: 0rem 6rem 0rem -1rem;
     }
 
     /* About section end */
@@ -464,13 +463,13 @@ img {
 
     .cards-iframe {
         width: 100%;
-        height: 1450px;
+        height: 1570px;
         overflow: hidden;
     }
 
     .sevices-cards {
         margin-top: 1rem;
-        padding: 0rem 6rem 0rem 2.5rem;
+        padding: 0rem 3rem 0rem 2rem;
     }
 
     /* Service Section end */
