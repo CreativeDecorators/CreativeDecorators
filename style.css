@@ -9,8 +9,9 @@ body {
         sans-serif;
     margin: 0%;
     padding: 0%;
-    font-family: ;
 }
+
+/* Slideshow container */
 
 .mySlides {
     display: none;
@@ -20,9 +21,6 @@ img {
     vertical-align: middle;
     z-index: -1;
 }
-
-
-/* Slideshow container */
 
 .slideshow-container {
     height: 100%;
@@ -78,6 +76,8 @@ img {
     width: 40rem;
     font-size: 1rem;
 }
+
+/* Slideshow container ends */
 
 /* Fading animation */
 
@@ -157,6 +157,8 @@ img {
     color: rgb(14, 104, 0);
 }
 
+/* Navbar Section Ends */
+
 /* About Section Start */
 .about-sec {
     text-align: center;
@@ -171,7 +173,6 @@ img {
     right: 0;
     text-align: center;
 }
-
 
 .about-sec>img {
     width: 100%;
@@ -239,6 +240,7 @@ img {
 
 .contact-address {
     padding: 5rem;
+    justify-content: start;
 }
 
 .contact-address table tr td {
@@ -263,16 +265,224 @@ img {
 /* Media Query */
 @media only screen and (max-width: 600px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Slideshow container */
+
+
+    .slideshow-container {
+        height: 100%;
+        max-width: 100%;
+        background-size: cover;
+        position: relative;
+    }
+
+    .bg1 {
+        height: 600px;
+        width: 100%;
+        top: 0%;
+        z-index: -7665;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #bg1 {
+        background: url("/assest/slider-1.png");
+        background-size: cover;
+    }
+
+    #bg2 {
+        background: url("/assest/slider-2.png");
+        background-size: cover;
+    }
+
+    #bg3 {
+        background: url("/assest/slider-3.png");
+        background-size: cover;
+    }
+
+    #bg4 {
+        background: url("/assest/slider-4.png");
+        background-size: cover;
+    }
+
+    #img-title {
+        position: absolute;
+        top: 70%;
+        left: 0%;
+        right: 0%;
+        text-align: center;
+        color: #AF2632;
+
+    }
+
+    #img-subtitle {
+        position: absolute;
+        top: 78%;
+        left: 8%;
+        width: 20rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    /* Slideshow container ends */
+
     .logo {
         height: 6rem;
         width: 6rem;
         /* margin: 0.5rem; */
         position: absolute;
         top: 3%;
-        /* right: 45%;
-        left: 45%; */
+        left: 35%;
         z-index: 65465;
     }
+
+    /* Navbar */
+    .menu {
+        display: flex;
+        position: absolute;
+        top: 6rem;
+        /* right: 23%; */
+        left: 15%;
+        /* margin: 0rem 20rem 0rem 35rem; */
+        z-index: 346;
+    }
+
+    .menu>div {
+        margin: 0rem 1rem 0rem 0rem;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .menu>div>a {
+        text-align: center;
+        text-decoration: none;
+        font-size: bold;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+
+    /* Navbar Ends */
+
+    /* About Section Start */
+    .about-sec {
+        text-align: center;
+        position: relative;
+        left: 0%;
+        right: 0%;
+        top: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    .about-title {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .about-sec>img {
+        width: 100%;
+        height: 1200px;
+        position: absolute;
+        top: -15%;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        left: 0%;
+        z-index: -89;
+    }
+
+    .about-cards {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .about-title {
+        font-size: 30px;
+        color: #AF2632;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .about-iframe {
+        width: 100%;
+        height: 890px;
+        overflow: hidden;
+        z-index: 747;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 0rem 6rem 5rem 2.5rem;
+    }
+
+    /* About section end */
+
+    /* Service Section starts */
+    .service-title {
+        font-size: 40px;
+        text-align: center;
+        color: #AF2632;
+    }
+
+    .cards-iframe {
+        width: 100%;
+        height: 1450px;
+        overflow: hidden;
+    }
+
+    .sevices-cards {
+        margin-top: 2rem;
+        padding: 0rem 6rem 0rem 2.5rem;
+    }
+
+    /* Service Section end */
+
+    /* Contact Section Starts*/
+    .contact-section {
+        display: flex;
+        height: 40rem;
+        flex-wrap: wrap;
+    }
+
+    .contact-map {
+        width: 100%;
+        padding: 0.4rem;
+        text-align: center;
+    }
+
+    .contact-address {
+        padding: 0.6rem;
+        margin: 0%;
+        /* justify-content: start; */
+    }
+
+    .contact-address table tr td {
+        padding: 1rem 2rem 0rem 0rem;
+        margin: 0%;
+    }
+
+    .icons {
+        width: 100%;
+        height: 60%;
+        padding: 0%;
+    }
+
+    /* Contact Section Ends*/
 
     /* Footer starts */
     .foot {
