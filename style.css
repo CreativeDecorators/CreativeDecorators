@@ -1,6 +1,6 @@
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 body {
     font-family: 'Oswald',
@@ -224,7 +224,7 @@ img {
 
 /* Service Section end */
 
-/* Contact Section */
+/* Contact Section Starts*/
 .contact-section {
     display: flex;
     /* padding-bottom: 2rem; */
@@ -242,6 +242,9 @@ img {
     padding: 1rem 2rem 0rem 0rem;
 }
 
+/* Contact Section Ends*/
+
+/* Footer starts */
 .foot {
     width: 48rem;
     height: 10rem;
@@ -250,4 +253,30 @@ img {
     left: 0;
     right: 0;
     text-align: center;
+}
+
+/* Footer Ends */
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        height: 6rem;
+        width: 6rem;
+        /* margin: 0.5rem; */
+        position: absolute;
+        top: 3%;
+        /* right: 45%;
+        left: 45%; */
+        z-index: 65465;
+    }
+
+    /* Footer starts */
+    .foot {
+        width: 22rem;
+        height: 7rem;
+    }
+
+    /* Footer Ends */
+
 }
