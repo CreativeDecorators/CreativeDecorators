@@ -122,8 +122,8 @@ img {
 /* Header */
 
 .logo {
-    height: 9rem;
-    width: 9rem;
+    /* height: 6rem;
+    width: 6rem; */
     /* margin: 0.5rem; */
     position: absolute;
     top: 3%;
