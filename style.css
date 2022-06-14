@@ -74,7 +74,7 @@ img {
     position: absolute;
     top: 80%;
     left: 10%;
-    width: 40rem;
+    width: 20rem;
     font-size: 1rem;
 }
 
@@ -130,6 +130,7 @@ img {
     right: 45%;
     left: 45%;
     z-index: 65465;
+    padding-bottom: 0%;
 }
 
 /* Navbar */
@@ -147,6 +148,7 @@ img {
     margin: 2rem 6rem 0rem 0rem;
     text-decoration: none;
     text-align: center;
+    z-index: 7565898790;
 }
 
 .menu>div>a {
